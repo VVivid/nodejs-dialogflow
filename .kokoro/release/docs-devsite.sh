@@ -37,6 +37,7 @@ NAME=$(cat .repo-metadata.json | json name)
 mkdir ./_devsite
 cp ./yaml/$NAME/* ./_devsite
 
+# Clean up TOC
 # Delete SharePoint item, see https://github.com/microsoft/rushstack/issues/1229
 sed -i -e '1,3d' ./yaml/toc.yml
 sed -i -e 's/^    //' ./yaml/toc.yml
@@ -51,6 +52,7 @@ sed -i -e '4i\
 sed -i -e '5i\
 \ \ \ \ description: Client library for Dialogflow.
 ' ./yaml/toc.yml
+
 
 cp ./yaml/toc.yml ./_devsite/toc.yml
 
