@@ -4,6 +4,18 @@
 
 [1]: https://www.npmjs.com/package/dialogflow?activeTab=versions
 
+## [4.0.0](https://www.github.com/googleapis/nodejs-dialogflow/compare/v3.3.0...v4.0.0) (2020-11-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* removed ImportAgentResponse which was not ready for use yet
+
+### Bug Fixes
+
+* do not modify options object, use defaultScopes ([#706](https://www.github.com/googleapis/nodejs-dialogflow/issues/706)) ([95a938d](https://www.github.com/googleapis/nodejs-dialogflow/commit/95a938dbc5f2cc49c217bb5d3cecbbffba3e6d18))
+* removed ImportAgentResponse which was not ready for use yet ([e0d9fa6](https://www.github.com/googleapis/nodejs-dialogflow/commit/e0d9fa69bba79540c09ec777b3eee6bf0bd5e4b6))
+
 ## [3.3.0](https://www.github.com/googleapis/nodejs-dialogflow/compare/v3.2.0...v3.3.0) (2020-09-15)
 
 
